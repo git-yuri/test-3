@@ -1,0 +1,123 @@
+* { /* 모든(전체) 선택자: 모든 태그에 스타일 적용 */
+  color: blue; 
+}
+
+p { /* 태그 선택자: p태그에 스타일 적용 */
+  color: pink;
+}
+
+#c1 { /* 아이디 선택자: 아이디명 앞에 #을 붙임 */
+  background-color: yellow;
+}
+
+.c22 { /* 클래스 선택자: 클래스명 앞에 .을 붙임 */
+  background-color: rgb(238, 182, 234);
+}
+
+table tr th { /* 계층 선택자: table 태그 아래의 tr 태그 아래에 th 태그 */
+  color:red;
+}
+
+a:hover { /* 상태 선택자 (hover: a태그에 마우스 올라가 상태) */
+  color: rgb(59, 201, 199);
+  text-decoration: none; /* 밑줄 없음 */
+}
+
+ul li:nth-child(even) a { /* 계층, 상태 선택자 (nth-child():몇 번째 자식을 뜻함) */
+  background-color: chartreuse; 
+}
+
+#h {
+  font: italic 25px serif; /* 폰트 숏핸드 방식(마지막에는 꼭 글꼴이 와야 함) */
+  text-align: center; /* 가운데 정렬 */
+}
+
+.bb {
+  background-color: rgb(237, 210, 247);
+  background-image: url(img4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  font: 12pt serif, sans-serif;
+  text-indent: 10pt; /* 들여쓰기(양수), 내어쓰기(음수) */
+  text-transform: uppercase; /* 모두 대문자로 변경 */
+  letter-spacing: 0.2em; /* 글자와 글자 사이 간격 설정 */
+  word-spacing: 0.5em; /* 단어와 단어 사이 간격 설정 */
+  line-height: 1.6em; /* 줄간격 설정 (1.6배, 160%) */
+  text-shadow: 2px 2px 1px #c5d4f3;
+}
+
+.bb:hover {
+  background-color: transparent; /* 배경색 투명으로(없음) */
+  background-image: none;
+} 
+
+li {
+  list-style-image: url(icon1.png);
+}
+
+table {
+  border-spacing: 5px 3px; /* 셀(열) 좌우(수평), 위아래(수직) 간격 설정 */
+  caption-side: bottom; /* 테이블 제목 아래로 설정 */
+}
+
+th, td {
+  border: 1px solid rgb(237, 170, 170); /* 테두리 설정 */
+}
+
+#c1 {
+  border: 1px solid rgb(91, 173, 214); /* 모든 테두리 설정(선굵기, 실선, 선색상)*/
+  border-left-color: rgb(91, 173, 214);
+  border-left-width: 10px;
+  border-left-style: solid;
+
+  border-radius: 0 10px 10px 0;
+}
+
+.bb {
+  border: 1px solid red;
+  text-align: justify;
+  padding: 10px 20px 30px 40px; /* 테두리 기준 안쪽 여백 (위, 오른, 아래, 왼쪽) */
+  margin: 20px; /* 테두리 기준 바깥 여백 (투명) */
+  border-radius: 10px;
+}
+
+img {
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+img:hover {
+  opacity: 0.5; /* 투명도 설정(0은 투명, 1은 불투명, 0.5 반투명) */
+}
+
+#cc {
+  border: 1px solid green;
+  border-radius: 10px 10px 0 0;
+  border-bottom-width: 10px;
+
+  margin: 10px;
+  padding: 15px;
+
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

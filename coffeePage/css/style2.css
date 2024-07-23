@@ -1,0 +1,29 @@
+div {
+  width: 600px;
+  margin: 0 auto 10px auto;
+  background-color: bisque;
+}
+
+div p {
+  padding: 20px;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+div p a {
+  height: 50px;
+  display: block;
+  background-color: orange;
+}
+
+div p span {
+  height: 50px;
+  display: inline-block;
+  background-color: pink;
+}
+
+div img {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

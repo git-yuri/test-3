@@ -1,0 +1,52 @@
+body {
+  background-image: url(../images/back.png);
+}
+
+h1 {
+  background-color: transparent;
+  color: chocolate;
+}
+
+#box {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(245,245,220,0.5);
+}
+
+p {
+  width: 100px;
+  height: 100px;
+  float: left; /* 붕~ 떠서 왼쪽으로 */
+}
+
+#box p:nth-child(1) {
+  background-color: bisque;
+}
+
+#box p:nth-child(2) {
+  position: relative; /* 다른 태그에 영향을 주지 않고 나만 움직임! */
+  left: 10px;
+  top: 10px;
+  background-color: rgb(242, 176, 95);
+}
+
+#box p:nth-child(3) {
+  position: sticky;
+  top: 15px;
+  background-color: rgb(200, 223, 86);
+}
+
+#box p:nth-child(4) {
+  position: absolute; /* 원하는 좌표로 이동, 스크롤 움직일 때 함께 움직임 */
+  left: 10px;
+  top: 20px;
+  background-color: rgb(99, 243, 217);
+}
+
+#box p:nth-child(5) {
+  position: fixed; /* 원하는 좌표로 이동, 스크롤이 움직여도 항상 고정 위치! */
+  right: 10px;
+  top: 20px;
+  background-color: rgb(242, 153, 212);
+}

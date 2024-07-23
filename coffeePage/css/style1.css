@@ -1,0 +1,18 @@
+#box3 {
+  max-width: 600px; /* 브라우저 화면 너비가 600px 보다 좁아지면 알아서 너비 설정, 커지면 최대 600px! */
+  margin: 0 auto 10px auto;
+  height: 350px;
+  background: rgba(246, 193, 202, 0.5) url(../images/c1.png) no-repeat right bottom;
+  background-size: 250px;
+  overflow: scroll; /* 너비*높이 사이즈 보다 내용이 넘치면 스크롤 생김! */
+}
+
+#box3 p {
+  margin: 0 10px 10px;
+  padding: 20px;
+  line-height: 1.6em; /* 대문자 높이 기준 1.6배, 줄간격(행간) 설정 */
+  text-align: justify; /* 양쪽 정렬 */
+  text-indent: 10px;
+  letter-spacing: 0.15em;
+}
+
